@@ -1,0 +1,26 @@
+name: zuvoo_web
+description: Zuvoo marketing website — Flutter Web.
+publish_to: none
+version: 3.0.0+3
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  go_router: ^14.6.2
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/video/
